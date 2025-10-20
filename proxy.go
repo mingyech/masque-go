@@ -20,7 +20,7 @@ const (
 	uriTemplateTargetPort = "target_port"
 )
 
-const maxUDPPayloadSize = 1500
+const maxUDPPayloadSize = 1300
 
 var contextIDZero = quicvarint.Append([]byte{}, 0)
 
